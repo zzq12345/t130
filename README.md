@@ -15,3 +15,8 @@ build_dir/target-mips_24kc_musl-1.1.16/linux-ar71xx_generic/linux-4.9.70
 文件夹下（因内核常更新这个路径需要你灵活替换成你的系统下路径），并在此文件夹下运行以下命令：
 
 patch -p1 < 0001-dvb_lede_linux-4.9.x.patch
+
+
+ cd build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.9.75
+ 
+patch -p1 < 0001-dvb_lede_linux-4.9.x.patch
